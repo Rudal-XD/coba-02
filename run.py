@@ -133,18 +133,14 @@ def banner():
 
 def menu():
            banner()
-           (""""
+           print(""""
           ('========MENU========')
             [1]. MANGAN TAHU
             [2].ytta ygy
             [3].exit(keluar)
             """")
 def pilih():
-           masuk = input 
-           masuk = '1' or '01'
-           masuk = '2' or '02'
-           masuk = '3' or '03'
-
+           masuk = input('choose:')
 
 main()
 
