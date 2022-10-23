@@ -113,7 +113,7 @@ cpc = 'CP-'+str(tgl)+'-'+str(bln)+'-'+str(thn)+'.txt'
 def clear():
 	os.system('clear')
 def back():
-	login()
+	menu()
 def banner():
 	print('''%s
 	_______           ______   _______  _                 ______  
@@ -141,8 +141,6 @@ def menu():
             ''')
 def pilih():
            masuk = input('choose:')
-
-back()
 
 
            
