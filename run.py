@@ -142,7 +142,7 @@ def menu():
 def pilih():
            masuk = input('choose:')
 
-login()
+menu()
 
 
            
