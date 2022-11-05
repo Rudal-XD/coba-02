@@ -139,8 +139,9 @@ def menu():
             [2].ytta ygy
             [3].exit(keluar)
             ''')
-            self.pilih()
-        def pilih():
+                 self.pilih()
+
+          def pilih():
                masuk = input('choose:')
                if masuk in ['']:
                print()
