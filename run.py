@@ -139,8 +139,23 @@ def menu():
             [2].ytta ygy
             [3].exit(keluar)
             ''')
-def pilih():
-           masuk = input('choose:')
+            self.pilih()
+        def pilih():
+               masuk = input('choose:')
+               if masuk in ['']:
+               print()
+               if masuk in ['1]:
+                   try:
+                      import rich
+                      print('module rich telah di install')
+                   except ImportError:
+                      print('module rich belum di install')
+                      exit()
 
+
+if __name__ == "__main__":
+    print()
+    # print('dalam perkembangan wkwkwk')
+    coba-02()
 
            
